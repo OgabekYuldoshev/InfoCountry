@@ -47,8 +47,9 @@ export default {
     justify-content: center;
     text-align: center;
     width: 100%;
-    height: 90vh;
+    height: 100vh;
     background: lightblue;
+    padding-top: 70px;
 }
 img{
     margin: 10px;

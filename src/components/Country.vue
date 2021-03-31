@@ -51,5 +51,11 @@ img{
   width: 40%;
   
 }
+@media screen and (max-width:400px) {
+  .country{
+  width: 40vh;
+  height: 30vh;
+}
+}
 
 </style>

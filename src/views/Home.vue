@@ -56,8 +56,15 @@ export default {
 #countries{
   width: 100%;
   padding: 40px;
+  padding-top: 70px;
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-between;
   gap: 4vh;
+  }
+  @media screen and (max-width:400px) {
+    #countries{
+  justify-content: center;
+  }
   }
 </style>
